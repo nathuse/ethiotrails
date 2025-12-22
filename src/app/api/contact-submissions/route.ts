@@ -3,6 +3,9 @@ import { db } from '@/db';
 import { contactSubmissions } from '@/db/schema';
 import { eq, desc } from 'drizzle-orm';
 
+// Mark as dynamic to prevent build-time execution
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
