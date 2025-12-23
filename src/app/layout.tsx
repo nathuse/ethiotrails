@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     description: "Experience authentic Ethiopian culture, history, and natural wonders with expert-guided tours across Ethiopia.",
     images: [
       {
-        url: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/images/ethio-hero-1.jpg",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ethiopian landscape and culture"
+        alt: "Ethio Trails - Where Every Road Has a Story"
       }
     ]
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ethio Trails - Discover the Beauty & Culture of Ethiopia",
     description: "Experience authentic Ethiopian culture, history, and natural wonders with expert-guided tours.",
-    images: ["https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/images/ethio-hero-1.jpg"]
+    images: ["/og-image.jpg"]
   },
   robots: {
     index: true,
@@ -47,7 +47,14 @@ export const metadata: Metadata = {
     }
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
 };
@@ -61,6 +68,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
         <style>{`
         :root {
