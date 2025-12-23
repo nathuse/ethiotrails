@@ -41,7 +41,7 @@ export default function Header() {
   const moreLinks = [
     { name: "Attractions", href: "/packages" },
     { name: "Wildlife", href: "/packages/wildlife" },
-    { name: "gallery", href: "/Gallery" },
+    { name: "Gallery", href: "/Gallery" },
     { name: "Coffee", href: "/coffee" },
     { name: "Calendar", href: "/unique-calendar" }
   ];
