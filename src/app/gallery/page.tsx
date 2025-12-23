@@ -10,7 +10,7 @@ export default function GalleryPage() {
   const images = [
     {
       url: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot_20250627_044104_Photos-1766473200626.jpg?width=1200&height=800&resize=contain",
-      title: "Somali Ostrich",
+      title: "Ostrich",
       category: "Wildlife"
     },
     {
@@ -150,7 +150,7 @@ export default function GalleryPage() {
     },
     {
       url: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ethiopia_addis-ababa_silhouettes-1-e1505197403380-1762804541811.jpg?width=1200&height=800&resize=contain",
-      title: "Religious Celebration",
+      title: "Ethiopian Orthodox Church",
       category: "Culture"
     },
     {
