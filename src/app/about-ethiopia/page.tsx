@@ -65,13 +65,6 @@ const needToKnowItems = [
     badge: "አ"
   },
   {
-    icon: Syringe,
-    title: "Health & Vaccinations",
-    description: "Yellow fever vaccination is often recommended, along with updates for typhoid, hepatitis A, and tetanus. Consult your doctor before travel.",
-    color: "var(--ethiopian-green)",
-    badge: null
-  },
-  {
     icon: Shirt,
     title: "Dress Code",
     description: "Women are encouraged to pack a scarf to cover their hair in churches and mosques to maintain a respectful environment amongst worshippers.",
