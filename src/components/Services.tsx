@@ -36,7 +36,7 @@ const services = [
   description: "Experience the birthplace of coffee with traditional ceremonies and organic farms.",
   color: "var(--ethiopian-yellow)",
   href: "/coffee-culture",
-  image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/coffeeculture_bodyimage_2-1762797898309.jpg?width=1920&height=1080&resize=contain"
+  image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/6cd46d78-a3fb-47d7-88f1-915e4fe932bc/generated_images/traditional-ethiopian-coffee-ceremony-ha-82f175e4-20251110185654.jpg"
 },
 {
   icon: Landmark,
