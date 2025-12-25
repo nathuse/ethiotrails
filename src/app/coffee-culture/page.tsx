@@ -36,7 +36,15 @@ export default function CoffeeCulturePage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-ethiopian-yellow/20 to-ethiopian-green/20" />
-        <div className="absolute inset-0 bg-[url('https://images.sbs.com.au/dims4/default/2182227/2147483647/strip/true/crop/1200x675+0+113/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Ffood%2Fpublic%2Fethiopian-coffee-lead.jpg')] bg-cover bg-center opacity-30" />
+        <div className="absolute inset-0 opacity-30">
+          <Image
+            src="https://images.sbs.com.au/dims4/default/2182227/2147483647/strip/true/crop/1200x675+0+113/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Ffood%2Fpublic%2Fethiopian-coffee-lead.jpg"
+            alt="Ethiopian Coffee"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
         
         <motion.div
           initial={{ opacity: 0, y: 30 }}
